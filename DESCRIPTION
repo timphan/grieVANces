@@ -1,0 +1,11 @@
+Package: grieVANces
+Type: Package
+Title: Automating Votebuilder With R
+Version: 0.1
+Date: 2016-08-24
+Author: Tim Phan
+Maintainer: Who to complain to <tphan@flvictory2016.org>
+Description: Instead of filling out forms on VAN/Votebuilder, use the power of the Hadleyverse and rSelenium to "hack" the VAN. Once we are logged into VAN through the R interface, it is possible to automate all sorts of time consuming tasks (creating batch events, deleting mass profiles, web scraping multiple pages)
+License: What license is it under?
+LazyData: TRUE
+Imports: dplyr, stringr, tidyr, rvest, RSelenium
